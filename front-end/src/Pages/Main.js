@@ -6,8 +6,7 @@ import CreamLines from "../Components/creamLines";
 import beachImage from "../Images/beach.png";
 import capImage from "../Images/cap.png";
 import logoImage from "../Images/logo.png";
-
-
+import Footer from "../Components/Footer";
 
 const MainPage = () => {
   return (
@@ -70,8 +69,10 @@ const MainPage = () => {
             </div>
           </div>
           <img id="logoPic" src={logoImage} alt="logo"></img>
-
         </div>
+      </div>
+      <div className="foot">
+        <Footer />
       </div>
     </div>
   );

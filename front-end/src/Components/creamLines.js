@@ -1,4 +1,5 @@
 import './creamLines.css';
+import React from 'react';
 
 const CreamLines = () => {
   return (
