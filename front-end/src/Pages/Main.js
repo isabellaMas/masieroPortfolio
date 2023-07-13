@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../Components/Header";
 import "./Main.css";
 import mainImage from "../Images/mainImage.jpg";
+import CreamLines from "../Components/creamLines";
+
 const MainPage = () => {
   return (
     <div>
@@ -16,6 +18,7 @@ const MainPage = () => {
         </div>
         <img id="gradPic" src={mainImage} alt="graduation"></img>
       </div>
+      <CreamLines/>
     </div>
   );
 };

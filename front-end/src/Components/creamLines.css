@@ -1,0 +1,15 @@
+#half {
+  width: 50%;
+  background-color: #d9d2b6;
+  height: 3px;
+  margin-left: 0;
+  border-width:0;
+  margin-bottom: 2%;
+}
+#full {
+    width: 100%;
+    background-color: #d9d2b6;
+    border-width:0;
+    height: 3px;
+    margin-left: 0;
+  }
