@@ -9,9 +9,9 @@
     justify-content: space-evenly;
     align-items: flex-end;
 }
-p{
+.menuPages{
     font-family: Truculenta;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

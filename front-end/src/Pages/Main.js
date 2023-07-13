@@ -9,9 +9,9 @@ const MainPage = () => {
         <Header style={{ color: "D9D2B6" }}/>
       </div>
       <div className="intro">
-        <h1>HELLO I'M</h1>
-        <h1>ISABELLA</h1>
-        <h1>MASIERO</h1>
+        <div id="hello">HELLO, I'M</div>
+        <div id="first">ISABELLA</div>
+        <div id="last">MASIERO</div>
       </div>
     </div>
   );

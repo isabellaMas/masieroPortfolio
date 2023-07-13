@@ -1,15 +1,28 @@
-body{
-    background-color: #090C02;
+body {
+  background-color: #090c02;
 }
-.menu{
-    color: #D9D2B6;
+.menu {
+  color: #d9d2b6;
 }
-.intro{
-    color: #FFF;
-    font-family: Work Sans;
-    font-size: 128px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.intro {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  align-items: flex-start;
 }
 
+#hello{
+    margin-left: 15%;
+}
+#first{
+    margin-left: 30%;
+}
+#last{
+    margin-left: 40%;
+}
