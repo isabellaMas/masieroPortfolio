@@ -1,10 +1,18 @@
-import React from 'react';
+import React from "react";
+import Header from "../Components/Header";
+import "./Main.css";
 
 const MainPage = () => {
   return (
     <div>
-      <h1>Welcome to the Main Page</h1>
-      <p>This is the main page of your React application.</p>
+      <div className="menu">
+        <Header style={{ color: "D9D2B6" }}/>
+      </div>
+      <div className="intro">
+        <h1>HELLO I'M</h1>
+        <h1>ISABELLA</h1>
+        <h1>MASIERO</h1>
+      </div>
     </div>
   );
 };
