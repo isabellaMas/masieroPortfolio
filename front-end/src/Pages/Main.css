@@ -15,14 +15,26 @@ body {
   flex-direction: column;
   margin-top: 10%;
   align-items: flex-start;
+  z-index: 1;
 }
 
-#hello{
-    margin-left: 15%;
+#gradPic{
+    width: 35%;
+    height: 15%;
+    margin-top: 3%;
+    margin-left: 1%;
+    z-index: 0;
 }
+
+.imgAndName{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
 #first{
     margin-left: 30%;
 }
 #last{
-    margin-left: 40%;
+    margin-left: 50%;
 }
