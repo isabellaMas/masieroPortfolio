@@ -13,28 +13,153 @@ body {
   line-height: normal;
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 5%;
   align-items: flex-start;
   z-index: 1;
+  height: 45%;
 }
 
-#gradPic{
-    width: 35%;
-    height: 15%;
-    margin-top: 3%;
-    margin-left: 1%;
-    z-index: 0;
+#gradPic {
+  width: 35%;
+  height: 15%;
+  margin-top: 3%;
+  margin-left: 1%;
+  z-index: 0;
 }
 
-.imgAndName{
-    display: flex;
-    flex-direction: row;
-    margin-left: 10%;
+.imgAndName {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
 }
 
-#first{
-    margin-left: 30%;
+#first {
+  margin-left: 30%;
 }
-#last{
-    margin-left: 50%;
+#last {
+  margin-left: 50%;
+}
+
+#me {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 350px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.04em;
+  align-self: flex-start;
+  display: inline;
+}
+#about {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 350px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1em;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+#imageBio {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.niceContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: -8em;
+  margin-left: 0px;
+}
+
+.niceToMeet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10em;
+  margin-left: 15em;
+}
+
+#nice {
+  color: #fff;
+  font-family: Water Brush;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2em;
+}
+
+#bio {
+  color: #fff;
+  text-align: justify;
+  font-family: Truculenta;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.imageOverlap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: -45em;
+  margin-left: 6em;
+}
+
+#capPic {
+  margin-left: -15em;
+  width: 30%;
+  height: 30%;
+}
+#beachPic {
+  margin-top: 15em;
+  width: 30%;
+  height: 30%;
+}
+
+#right {
+  width: 50%;
+  background-color: #d9d2b6;
+  height: 3px;
+  margin-right: 0;
+  border-width: 0;
+}
+
+#left {
+  width: 50%;
+  background-color: #d9d2b6;
+  height: 3px;
+  margin-left: 0;
+  border-width: 0;
+  margin-bottom: 4em;
+  margin-top: 3em;
+}
+
+.bottomBio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1em;
+  margin-left: 0px;
+}
+
+.bottomBlurb {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 15em;
+  margin-left: 5em;
+}
+
+#logoPic{
+    width: 30em;
+    height: 30em;
+    margin-right: 10em;
 }
