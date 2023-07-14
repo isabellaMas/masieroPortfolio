@@ -10,9 +10,9 @@ import Footer from "../Components/Footer";
 
 const MainPage = () => {
   return (
-    <div>
-      <div className="menu">
-        <Header style={{ color: "D9D2B6" }} />
+    <div className="mainPage">
+      <div className="menuMain">
+        <Header />
       </div>
       <div className="imgAndName">
         <div className="intro">

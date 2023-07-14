@@ -2,6 +2,7 @@ import "./App.css";
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./Pages/Main.js";
+import GraphicPage from "./Pages/Graphic";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div>
           <Routes>
             <Route exact path="/" element={<MainPage />}></Route>
+            <Route exact path="/graphic" element={<GraphicPage />}></Route>
           </Routes>
         </div>
       </BrowserRouter>
