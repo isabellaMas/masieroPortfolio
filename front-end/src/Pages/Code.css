@@ -1,0 +1,156 @@
+.codePage {
+  background-color: #090c02;
+}
+.menuMain {
+  color: #d9d2b6;
+  background-color: #090c02;
+}
+
+.codeTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 185px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#projects {
+  margin-top: -0.3em;
+}
+
+.linesCode {
+  margin-top: 5em;
+}
+
+.soundTrack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4em;
+}
+.soundDesAndLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20em;
+  margin-left: 10em;
+  margin-top: 2em;
+}
+.soundDes {
+  color: #fff;
+  text-align: justify;
+  font-family: Truculenta;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.link {
+  color: #fff;
+  text-align: justify;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-top: 1em;
+}
+a {
+  color: #fff;
+}
+
+.soundImages {
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#soundLogo {
+  width: 98%;
+}
+#sound1 {
+  width: 80%;
+  margin-right: 20em;
+  margin-top: 5em;
+}
+#sound2 {
+  width: 80%;
+  margin-top: -10em;
+}
+
+#right {
+  width: 50%;
+  background-color: #d9d2b6;
+  height: 3px;
+  margin-right: 0;
+  border-width: 0;
+}
+
+#left {
+  width: 50%;
+  background-color: #d9d2b6;
+  height: 3px;
+  margin-left: 0;
+  border-width: 0;
+  margin-bottom: 4em;
+  margin-top: 3em;
+}
+
+.studyEasy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.studyDesAndLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10em;
+  margin-left: 15em;
+  margin-top: 2em;
+}
+
+.studyDes {
+  color: #fff;
+  text-align: justify;
+  font-family: Truculenta;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.studyImages{
+    margin-left: 2em;
+}
+
+#studyPic{
+    width: 99%;
+    margin-left: 5em;
+}
+
+.foot {
+  background-color: #d9d2b6;
+  color: #090c02;
+}
+.foot .submit {
+  border: 1px solid #764134;
+  color: #764134;
+}
+
+.foot .emailIn {
+  color: #d9d2b6;
+  background-color: #764134;
+  border: 1px solid #764134;
+}
