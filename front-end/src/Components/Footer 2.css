@@ -1,0 +1,40 @@
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: flex-start;
+}
+#words {
+  color: #090c02;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2em;
+  margin-right: 5em;
+  text-align: left;
+}
+#wordsEmail {
+  text-align: left;
+  color: #090c02;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2em;
+  margin-left: 5em;
+}
+.footer {
+  height: 10em;
+  margin-top: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#emailInput{
+    background-color:#764134;
+    margin-top: 1em;
+}
