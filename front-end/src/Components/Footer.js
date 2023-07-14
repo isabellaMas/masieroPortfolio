@@ -10,9 +10,9 @@ const Footer = () => {
         </div>
         <form id= "emailInput">
           <label>
-            <input id="emailIn" type="text" name="EMAIL" value="  EMAIL"/>
+            <input class="emailIn" type="text" name="EMAIL" value="  EMAIL"/>
           </label>
-          <input id="submit" type="submit" value="submit" />
+          <input class="submit" type="submit" value="submit" />
         </form>
       </div>
       <div id="words">

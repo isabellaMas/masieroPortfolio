@@ -4,6 +4,21 @@
 .menuGraphic {
   color: #3423a6;
 }
+.footGraphic {
+  background-color: #3423a6;
+  color: #d9d2b6;
+}
+
+.footGraphic .submit {
+  border: 1px solid #d9d2b6;
+  color: #d9d2b6;
+}
+
+.footGraphic .emailIn {
+  color: #764134;
+  background-color: #d9d2b6;
+  border: 1px solid #d9d2b6;
+}
 .titleGraphic {
   color: #fff;
   font-family: Work Sans;
@@ -13,7 +28,19 @@
   line-height: normal;
   z-index: 0;
 }
-
+.mag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20em;
+  margin-right: auto;
+}
+.spreads {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1em;
+}
 #design {
   margin-top: -0.4em;
   z-index: 0;
@@ -68,13 +95,24 @@
   background-color: #3423a6;
   width: 100%;
   border-width: 0;
-  height: .3em;
+  height: 0.3em;
   margin-left: 0;
   color: #3423a6;
   margin-top: 4em;
 }
 
-#post{
-    margin-top: 4em;
-    width: 96%;
+#post {
+  margin-top: 4em;
+  width: 96%;
+}
+
+#cover {
+  width: 35%;
+}
+#firstS {
+  width: 65%;
+}
+#secondS {
+  width: 65%;
+  margin-top: 1em;
 }
