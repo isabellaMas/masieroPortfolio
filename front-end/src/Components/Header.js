@@ -32,7 +32,14 @@ const Header = () => {
           {" "}
           programming project
         </div>
-        <div className="menuPages">resume</div>
+        <div
+          className="menuPages"
+          onClick={() => {
+            navigate("/resume");
+          }}
+        >
+          resume
+        </div>
       </div>
     </div>
   );

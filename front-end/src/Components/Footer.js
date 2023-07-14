@@ -16,8 +16,17 @@ const Footer = () => {
         </form>
       </div>
       <div id="words">
-        Some words <br />I don't <br />
-        know yet
+      <div id="phone">+1(908)672-3642</div>
+        <div id="email">icm268@nyu.edu</div>
+        <a
+          id="linked"
+          href="https://www.linkedin.com/in/isabella-masiero-215647162/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
+        <div id="zip">New York,NY 10009</div>
       </div>
     </div>
   );
