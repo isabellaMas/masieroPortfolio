@@ -14,7 +14,7 @@ const Footer = () => {
     }
   };
 
-  const domain = "https://portfolio-xe4wc.ondigitalocean.app/";
+  const domain = "https://isabellamasiero.co/$%7Bdomain%7D";
 
   const handleSubmit = (e) => {
     e.preventDefault();
