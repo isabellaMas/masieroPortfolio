@@ -14,9 +14,11 @@ const Footer = () => {
     }
   };
 
+  const domain = "https://portfolio-xe4wc.ondigitalocean.app/";
+
   const handleSubmit = (e) => {
     e.preventDefault(); 
-    fetch("http://localhost:3001/submit-form", {
+    fetch("${domain}/submit-form", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

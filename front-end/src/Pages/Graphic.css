@@ -49,7 +49,7 @@
   z-index: 1;
 }
 
-#topLine {
+#topL {
   position: relative;
   background-color: #3423a6;
   width: 100%;
@@ -61,7 +61,7 @@
   margin-top: -0.6em;
 }
 
-#bottomLine {
+#bottomL {
   position: relative;
   background-color: #3423a6;
   width: 100%;

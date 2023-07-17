@@ -18,9 +18,9 @@ const GraphicPage = () => {
       </div>
       <div className="titleGraphic">
         <div id="graphic">GRAPHIC</div>
-        <hr id="topLine" />
+        <hr id="topL" />
         <div id="design">DESIGN</div>
-        <hr id="bottomLine" />
+        <hr id="bottomL" />
       </div>
       <div className="albumDesign">
         <img id="mock" src={Mockup} alt="album mockup"></img>
@@ -45,3 +45,5 @@ const GraphicPage = () => {
 };
 
 export default GraphicPage;
+
+
