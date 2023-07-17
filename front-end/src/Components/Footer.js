@@ -17,7 +17,21 @@ const Footer = () => {
   const domain = "https://portfolio-xe4wc.ondigitalocean.app/";
 
   const handleSubmit = (e) => {
-    e.preventDefault(); 
+    e.preventDefault();
+    fetch("${domain}/graphic/submit-form", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email: emailValue }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
     fetch("${domain}/submit-form", {
       method: "POST",
       headers: {
@@ -27,7 +41,35 @@ const Footer = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data); 
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+    fetch("${domain}/resume/submit-form", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email: emailValue }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+    fetch("${domain}/projects/submit-form", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email: emailValue }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -55,7 +97,7 @@ const Footer = () => {
             className="submit"
             type="submit"
             value="submit"
-            onClick={handleSubmit} 
+            onClick={handleSubmit}
           />
         </form>
       </div>
