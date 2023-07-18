@@ -14,7 +14,7 @@ const Footer = () => {
     }
   };
 
-  const domain = "https://isabellamasiero.co/$%7Bdomain%7D";
+  const domain = "https://isabellamasiero.co";
 
   const handleSubmit = (e) => {
     e.preventDefault();
