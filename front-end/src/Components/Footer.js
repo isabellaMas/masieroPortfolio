@@ -18,7 +18,7 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("${domain}/graphic/submit-form", {
+    fetch(domain+'/graphic/submit-form', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -32,7 +32,7 @@ const Footer = () => {
       .catch((error) => {
         console.error("Error:", error);
       });
-    fetch("${domain}/submit-form", {
+    fetch(domain+'/submit-form', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -46,7 +46,7 @@ const Footer = () => {
       .catch((error) => {
         console.error("Error:", error);
       });
-    fetch("${domain}/resume/submit-form", {
+    fetch(domain+'/resume/submit-form', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -60,7 +60,7 @@ const Footer = () => {
       .catch((error) => {
         console.error("Error:", error);
       });
-    fetch("${domain}/projects/submit-form", {
+    fetch(domain+'/projects/submit-form', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -105,7 +105,7 @@ const Footer = () => {
         <div id="phone">+1(908)672-3642</div>
         <div id="email">icm268@nyu.edu</div>
         <a
-          id="linked"
+          class="linked"
           href="https://www.linkedin.com/in/isabella-masiero-215647162/"
           target="_blank"
           rel="noreferrer"
