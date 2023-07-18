@@ -25,12 +25,12 @@ const ResumePage = () => {
         </a>
         <div id="zip">New York,NY 10009</div>
       </div>
-      <div class="infoTotal">
-        <div class="infoLeft">
-          <div class="infoTitle">EDUCATION</div>
-          <div class="infoBody">
+      <div className="infoTotal">
+        <div className="infoLeft">
+          <div className="infoTitle">EDUCATION</div>
+          <div className="infoBody">
             New York University --
-            <div class="info">
+            <div className="info">
               Graduated May 2023
               <br />
               Bachelor of Arts
@@ -41,7 +41,7 @@ const ResumePage = () => {
             </div>
             <br />
             Ridge High School --
-            <div class="info">
+            <div className="info">
               Graduated June 2019
               <br />
               3.95 GPA
@@ -53,10 +53,10 @@ const ResumePage = () => {
             </div>
           </div>
 
-          <div class="infoTitle">RELEVANT EXPERIANCE</div>
-          <div class="infoBody">
+          <div className="infoTitle">RELEVANT EXPERIANCE</div>
+          <div className="infoBody">
             PoaTek -- Software Engineering Intern
-            <div class="info">
+            <div className="info">
               Porto Alegre, Brazil <br />
               (June 2022- August 2022) <br />
               - Used Agile methodology to create a fully automated Timesheet to
@@ -66,7 +66,7 @@ const ResumePage = () => {
               .Net, C#, and Web API
             </div>
             iD Tech -- Online Instructor
-            <div class="info">
+            <div className="info">
               Virtual <br />
               (May 2021- August 2021) <br />
               - Created lesson plans and conducted one-on-one classes for
@@ -74,7 +74,7 @@ const ResumePage = () => {
               - Taught Java, Pre-Algebra, Scratch, Algebra, and C <br />
             </div>
             NYU Phonathon -- Caller
-            <div class="info">
+            <div className="info">
               New York, NY
               <br />
               (Sep 2020- Oct 2020)
@@ -83,7 +83,7 @@ const ResumePage = () => {
               <br />
             </div>
             AT&T Summer Learning Academy -- Participant
-            <div class="info">
+            <div className="info">
               Virtual
               <br />
               (Jun 2020- Jul 2020)
@@ -93,7 +93,7 @@ const ResumePage = () => {
               <br />
             </div>
             William Annin Middle School -- Teacher Assistant
-            <div class="info">
+            <div className="info">
               Basking Ridge, NJ
               <br />
               (Sep 2018- Jun 2019)
@@ -103,7 +103,7 @@ const ResumePage = () => {
               <br />
             </div>
             Ayga -- Intern
-            <div class="info">
+            <div className="info">
               Porto Alegre, Brazil
               <br />
               (Aug 2018- Sep 2018)
@@ -113,7 +113,7 @@ const ResumePage = () => {
               <br />
             </div>
             Brainstem camp -- Counselor
-            <div class="info">
+            <div className="info">
               Basking Ridge, NJ
               <br />
               (Jul 2017-Aug 2017)
@@ -124,24 +124,24 @@ const ResumePage = () => {
             </div>
           </div>
         </div>
-        <div class="infoRight">
-          <div class="infoTitle">SKILLS</div>
-          <div class="infoBody">
+        <div className="infoRight">
+          <div className="infoTitle">SKILLS</div>
+          <div className="infoBody">
             Computer --
-            <div class="info">
+            <div className="info">
               Java, Javascript, NodeJS, TypeScript, React, .Net, SQL, NoSQL,
               HTML, Python, Data Structures, Agile, MongoDB, Photoshop, Adobe
               Illustrator, Adobe InDesign
             </div>
             <br />
             Languages --
-            <div class="info">English, Portuguese, Spanish</div>
+            <div className="info">English, Portuguese, Spanish</div>
           </div>
 
-          <div class="infoTitle">OTHER EXPERICANCE</div>
-          <div class="infoBody">
+          <div className="infoTitle">OTHER EXPERICANCE</div>
+          <div className="infoBody">
             CycleBar -- CBX
-            <div class="info">
+            <div className="info">
               New York, New York
               <br />
               (August 2022- May 2023)
@@ -152,7 +152,7 @@ const ResumePage = () => {
               <br />
             </div>
             William Annin Middle School -- Volleyball Coach
-            <div class="info">
+            <div className="info">
               Basking Ridge, NJ
               <br />
               (Nov 2018 - Mar 2019)
@@ -162,7 +162,7 @@ const ResumePage = () => {
               <br />
             </div>
             Minute Man Steak House -- Waitress
-            <div class="info">
+            <div className="info">
               Morristown, NJ
               <br />
               (Sep 2018- Nov 2018)
@@ -173,10 +173,10 @@ const ResumePage = () => {
               <br />
             </div>
           </div>
-          <div class="infoTitle">LEADERSHIP ACTIVITIES & AWARDS</div>
-          <div class="infoBody">
+          <div className="infoTitle">LEADERSHIP ACTIVITIES & AWARDS</div>
+          <div className="infoBody">
             Ridge High School -- Peer Leader
-            <div class="info">
+            <div className="info">
               Basking Ridge, NJ
               <br />
               (2017-2019)
@@ -186,7 +186,7 @@ const ResumePage = () => {
               <br />
             </div>
             Latinx Culture Club -- Founder & President
-            <div class="info">
+            <div className="info">
               Basking Ridge, NJ
               <br />
               (2017-2019)
@@ -196,9 +196,9 @@ const ResumePage = () => {
               <br />
             </div>
           </div>
-          <div class="infoTitle">ASPIRATIONS</div>
-          <div class="infoBody">
-            <div class="info">
+          <div className="infoTitle">ASPIRATIONS</div>
+          <div className="infoBody">
+            <div className="info">
               - I want to drive change and help show younger generations of
               women and Latina women in STEM that it is a fun and fair industry
               to pursue <br />

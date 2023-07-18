@@ -25,7 +25,7 @@ const MainPage = () => {
       <CreamLines />
       <div className="aboutMe">
         <div id="about">ABOUT</div>
-        <div class="niceContainer">
+        <div className="niceContainer">
           <div id="me">ME</div>
           <div className="niceToMeet">
             <div id="nice">Nice to meet you!</div>
@@ -54,7 +54,7 @@ const MainPage = () => {
         </div>
         <hr id="left" />
         <hr id="right" />
-        <div class="bottomBio">
+        <div className="bottomBio">
           <div className="bottomBlurb">
             <div id="bio">
               Though I love technology I also have a special place in my heart

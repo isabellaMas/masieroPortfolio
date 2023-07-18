@@ -11,7 +11,7 @@ import StudyPic from "../Images/studyPic.png";
 
 const ProgrammingPage = () => {
   return (
-    <div class="codePage">
+    <div className="codePage">
       <div className="menuMain">
         <Header />
       </div>

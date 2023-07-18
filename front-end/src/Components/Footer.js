@@ -105,7 +105,7 @@ const Footer = () => {
         <div id="phone">+1(908)672-3642</div>
         <div id="email">icm268@nyu.edu</div>
         <a
-          class="linked"
+          className="linked"
           href="https://www.linkedin.com/in/isabella-masiero-215647162/"
           target="_blank"
           rel="noreferrer"
