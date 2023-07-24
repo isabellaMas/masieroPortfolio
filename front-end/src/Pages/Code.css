@@ -1,3 +1,4 @@
+/* Base styles for both laptop and phone */
 .codePage {
   background-color: #090c02;
 }
@@ -131,13 +132,13 @@ a {
   line-height: normal;
 }
 
-.studyImages{
-    margin-left: 2em;
+.studyImages {
+  margin-left: 2em;
 }
 
-#studyPic{
-    width: 99%;
-    margin-left: 5em;
+#studyPic {
+  width: 99%;
+  margin-left: 5em;
 }
 
 .foot {
@@ -155,6 +156,43 @@ a {
   border: 1px solid #764134;
 }
 
-.foot .linked{
+.foot .linked {
   color: #090c02;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+  .soundTrack,
+  .studyEasy {
+    flex-direction: column;
+    align-items: center;
+  }
+  .soundDesAndLink,
+  .studyDesAndLink {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  .soundImages,
+  .studyImages {
+    margin-right: 1em;
+    margin-left: 1em;
+    width: 50%;
+  }
+  #sound1 {
+    margin-right: 0;
+  }
+  #sound2 {
+    margin-top: 2em;
+  }
+  #right,
+  #left {
+    width: 100%;
+    margin: 0;
+  }
+  .codeTitle {
+    font-size: 50px;
+  }
+  #vid {
+    width: 15em;
+  }
 }

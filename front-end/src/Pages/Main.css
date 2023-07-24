@@ -181,6 +181,110 @@
   border: 1px solid #764134;
 }
 
-.foot .linked{
+.foot .linked {
   color: #090c02;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+  .imgAndName {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  #gradPic {
+    width: 80%;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 0;
+    z-index: 0;
+  }
+
+  #first,
+  #last {
+    margin-left: 0;
+  }
+
+  .intro {
+    font-size: 64px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .niceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -8em;
+    margin-left: 0;
+  }
+  .bottomBio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .niceToMeet,
+  .bottomBlurb,
+  .aboutMe {
+    align-items: center;
+    margin-right: 2em;
+    margin-left: 2em;
+    text-align: center;
+  }
+
+  #about {
+    font-size: 60px;
+    align-self: center;
+  }
+
+  #bio {
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  #nice {
+    font-size: 40px;
+    margin-top: 2em;
+  }
+
+  #me {
+    font-size: 60px;
+    align-self: center;
+    margin-top: 2em;
+  }
+
+  .imageOverlap {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5em;
+  }
+
+  #capPic,
+  #beachPic {
+    width: 90%;
+    height: auto;
+    margin-top: 1em;
+    margin-left: 2px;
+  }
+
+  #right,
+  #left {
+    width: 80%;
+  }
+
+  #logoPic {
+    height: auto;
+    margin-top: 2em;
+    width: 50%;
+    height: auto;
+    margin-left: 10em;
+  }
 }

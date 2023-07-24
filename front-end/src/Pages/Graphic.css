@@ -14,7 +14,7 @@
   color: #d9d2b6;
 }
 
-.footGraphic .linked{
+.footGraphic .linked {
   color: #d9d2b6;
 }
 
@@ -119,4 +119,38 @@
 #secondS {
   width: 65%;
   margin-top: 1em;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+  .mag {
+    align-items: center;
+  }
+  .albumDesign,
+  #post {
+    margin-top: 4em;
+  }
+
+  .titleGraphic {
+    font-size: 50px;
+  }
+  #album {
+    width: 50%;
+  }
+  #mock {
+    width: 50%;
+  }
+  #post {
+    width: 80%;
+  }
+  #cover {
+    width: 50%;
+  }
+  #firstS,
+  #secondS {
+    width: 100%;
+  }
+  .mag {
+    margin-left: 0;
+  }
 }

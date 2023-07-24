@@ -57,3 +57,39 @@
   border-radius: 20px;
   height: 2em;
 }
+
+@media only screen and (max-width: 767px) {
+  .email {
+    align-items: center;
+  }
+  #emailInput {
+    margin-top: 0.5em;
+  }
+  #wordsEmail {
+    text-align: center;
+    margin-left: 0;
+  }
+  .submit {
+    margin: 1em 0;
+  }
+  .emailIn {
+    margin-left: 0;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  #words {
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+

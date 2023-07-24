@@ -65,6 +65,7 @@ const ProgrammingPage = () => {
         <div className="studyImages">
           <video
             src={StudyDemo}
+            id="vid"
             width="600"
             controls="controls"
             autoplay="true"

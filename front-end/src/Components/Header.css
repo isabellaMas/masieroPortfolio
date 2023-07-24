@@ -1,27 +1,41 @@
+/* Base styles for both laptop and phone */
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-left: 2%;
   margin-right: 2%;
- 
-}
-.pageLinks{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
-}
-.menuPages{
-    font-family: Truculenta;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 0.5em;
 }
 
-.menuPages:hover{
+.pageLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.menuPages {
+  font-family: Truculenta;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0.5em;
+}
+
+.menuPages:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+  .menuPages{
+    font-size: 12px;
+    padding: 1em
+  }
+}
+
+
+
+
