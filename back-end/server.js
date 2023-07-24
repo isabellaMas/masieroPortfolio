@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const bodyParser = require('body-parser');
+require('dotenv').config({ silent: true });
 
 
 app.use(cors());
@@ -25,6 +26,7 @@ app.post('/submit-form', (req, res) => {
       pass: process.env.EMAIL_PASSWORD
     }
   });
+
 
 
   const { email } = req.body;

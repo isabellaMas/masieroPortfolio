@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Footer.css";
 
+
 const Footer = () => {
   const [emailValue, setEmailValue] = useState("EMAIL");
 
@@ -18,7 +19,7 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('/submit-form', {
+    fetch('http://localhost:3001/submit-form', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -46,34 +47,6 @@ const Footer = () => {
       .catch((error) => {
         console.error("Error:", error);
       });
-    /* fetch(domain+'/resume/submit-form', {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email: emailValue }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      });
-    fetch(domain+'/projects/submit-form', {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email: emailValue }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-      })
-      .catch((error) => {
-        console.error("Error:", error);
-      }); */
   };
 
   return (
