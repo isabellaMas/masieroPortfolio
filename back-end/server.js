@@ -23,7 +23,7 @@ app.post('/submit-form', (req, res) => {
     secure: true,
     auth: {
       user: 'bellaPortfolio@zohomail.com',
-      pass: 'EmwHMhLjhjCL'
+      pass: process.env.EMAIL_PASSWORD
     }
   });
 
