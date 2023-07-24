@@ -14,11 +14,11 @@ const Footer = () => {
     }
   };
 
-  const domain = "https://isabellamasiero.co";
+  const domain = "https://port-backend-ulcll.ondigitalocean.app";
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch(domain+'/graphic/submit-form', {
+    fetch('/submit-form', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -46,7 +46,7 @@ const Footer = () => {
       .catch((error) => {
         console.error("Error:", error);
       });
-    fetch(domain+'/resume/submit-form', {
+    /* fetch(domain+'/resume/submit-form', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -73,7 +73,7 @@ const Footer = () => {
       })
       .catch((error) => {
         console.error("Error:", error);
-      });
+      }); */
   };
 
   return (

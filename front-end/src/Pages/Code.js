@@ -6,7 +6,7 @@ import CreamLines from "../Components/creamLines";
 import SoundTrack from "../Images/soundTrack.png";
 import Sound1 from "../Images/sound1.png";
 import Sound2 from "../Images/sound2.png";
-import StudyDemo from "../Images/studyDemo.mov";
+import StudyDemo from "../Images/studyDemo.mp4";
 import StudyPic from "../Images/studyPic.png";
 
 const ProgrammingPage = () => {
