@@ -15,7 +15,7 @@ const Footer = () => {
     }
   };
 
-  const domain =  "http://localhost:3001";
+  const domain =  process.env.REACT_APP_BACKEND_URL || "http://localhost:3001";
 
   const handleSubmit = (e) => {
     e.preventDefault();
